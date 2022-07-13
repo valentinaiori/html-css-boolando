@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Boolando</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
 </head>
 <body>
     <!--HEADER-->
@@ -20,7 +21,9 @@
             <img id="logo" src="img/boolean-logo.png" alt="Logo-booleando">
         </div>
         <div>
-            <i class='fas fa-user-alt'></i>
+            <i class="fa fa-user"></i>
+            <i class="fa fa-heart"></i>
+            <i class="fa fa-shopping-bag"></i>
         </div>
         
     </header>
@@ -34,39 +37,48 @@
         <section>
 
             <div class="card">
-                <img src="img/1.webp" alt="Immagine1">
+                <div class="heart">&hearts;</div>
+                <div class="discount"><strong>-50%</strong></div>
+
+                <img class="prima-immagine"src="img/1.webp" alt="Immagine1">
+                <img class="seconda-immagine" src="img/1b.webp" alt="Imagine1b">
+
                 <p>Levi's</p>
                 <p><strong>RELAXED FIT TEE UNISEX</strong></p>
-                <p id="costo"><strong>14,99 &euro;</strong></p>
-                
-                <div class="heart">&hearts;</div>
+                <p><strong id="costo">14,99 &euro;</strong><span id="old-price"> 29,99 &euro;</span></p> 
             </div>
 
 
             <div class="card">
-                <img src="img/2.webp" alt="Immagine2">
+                <div class="discount"><strong>-30%</strong></div>
+                <img class="prima-immagine" src="img/2.webp" alt="Immagine2">
+                <img class="seconda-immagine" src="img/2b.webp" alt="Immagine2b">
                 <p>Guess</p>
                 <p><strong>ROSES TEE</strong></p>
-                <p id="costo"><strong>20,99 &euro;</strong></p>
+                <p><strong id="costo">20,99 &euro;</strong><span id="old-price"> 29,99 &euro;</span></p>
                 
                 <div class="heart">&hearts;</div>
             </div>
 
             <div class="card">
-                <img src="img/3.webp" alt="Immagine3">
+                <div class="discount"><strong>-30%</strong></div>
+                <img class="prima-immagine" src="img/3.webp" alt="Immagine3">
+                <img class="seconda-immagine" src="img/3b.webp" alt="Immagine3b">
                 <p>Come zucchero filato</p>
                 <p><strong>VOGLIA DI COLORI PASTELLO</strong></p>
-                <p id="costo"><strong>129,99 &euro;</strong></p>
+                <p><strong id="costo">129,99 &euro;</strong><span id="old-price"> 184,99 &euro;</span></p>
                 
                 <div class="heart">&hearts;</div>
             </div>
 
 
             <div class="card">
-                <img src="img/4.webp" alt="Immagine4">
+                <div class="discount"><strong>-50%</strong></div>
+                <img class="prima-immagine" src="img/4.webp" alt="Immagine4">
+                <img class="seconda-immagine" src="img/4b.webp" alt="Immagine4b">
                 <p>Levi's</p>
                 <p><strong>TEE UNISEX</strong></p>
-                <p id="costo"><strong>14,99 &euro;</strong></p>
+                <p><strong id="costo">14,99 &euro;</strong><span id="old-price"> 29,99 &euro;</span></p>
                 
                 <div class="heart">&hearts;</div>
             </div>
@@ -74,34 +86,26 @@
 
 
             <div class="card">
-                <img src="img/5.webp" alt="Immagine5">
+                <img class="prima-immagine" src="img/5.webp" alt="Immagine5">
+                <img class="seconda-immagine" src="img/5b.webp" alt="Immagine5b">
                 <p>Maya Deluxe</p>
                 <p><strong>STRIPE BODICE</strong></p>
-                <p id="costo"><strong>99,99 &euro;</strong></p>
+                <p><strong id="costo">99,99 &euro;</strong></p>
                 
                 <div class="heart">&hearts;</div>
             </div>
 
 
             <div class="card">
-                <img src="img/6.webp" alt="Immagine6">
+                <img class="prima-immagine" src="img/6.webp" alt="Immagine6">
+                <img class="seconda-immagine" src="img/6b.webp" alt="Immagine6b">
+                
                 <p>Esprit</p>
                 <p><strong>MAGLIONE - BLACK</strong></p>
-                <p id="costo"><strong>29,99 &euro;</strong></p>
+                <p><strong id="costo">29,99 &euro;</strong></p>
                 
                 <div class="heart">&hearts;</div>
             </div>
-
-
-
-
-
-
-
-
-
-
-
 
         </section>
     </main>
@@ -110,7 +114,17 @@
 
     <!--FOOTER-->
 
-    <footer></footer>
+    <footer>
+        <div>
+            <h2>Boolando s.r.l</h2>
+            <div class="links-footer">
+                <a href="#">Informazioni legali</a>
+                <a href="#">Informativa sulla privacy</a>
+                <a href="#">Diritto di recesso</a>
+            </div>
+        </div>
+        
+    </footer>
 
     <!--/FOOTER-->
     
