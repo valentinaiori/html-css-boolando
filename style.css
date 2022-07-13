@@ -110,6 +110,21 @@ section{
     text-align: center;
 }
 
+.etichetta{
+    position: absolute;
+    bottom: 10px;
+    margin-bottom: 100px;
+    margin-left: 40px;
+    background-color: green;
+    width: 75px;
+    height: 20px;
+    font-size: 11px;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+}
+
+
 
 .heart:hover{
     color: red;
